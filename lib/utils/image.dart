@@ -41,8 +41,13 @@ class RSImage {
               color: Colors.white,
             ),
           ),
-        )
+        ),
       ],
     ),
+  );
+  static Image membership = Image.asset(
+    'assets/images/membership.png',
+    height: 11,
+    width: 11,
   );
 }
