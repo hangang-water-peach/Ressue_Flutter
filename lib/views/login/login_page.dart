@@ -13,7 +13,7 @@ class LoginPage extends StatelessWidget {
         child: Column(
           children: [
             const SizedBox(
-              height: 221.6,
+              height: 222,
             ),
             RSImage.logo,
             const SizedBox(
@@ -21,16 +21,17 @@ class LoginPage extends StatelessWidget {
             ),
             Text(
               '잊혀진 이슈를 다시 알립니다',
-              style: RSTextStyle.textfield_Regular(15),
+              style: RSTextStyle.textfield_Regular(fontSize: 15),
             ),
             const Spacer(),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 56.82),
               child: GestureDetector(
-                  onTap: () {
-                    context.go('home');
-                  },
-                  child: RSImage.google_button),
+                onTap: () {
+                  context.go('/home');
+                },
+                child: RSImage.google_button,
+              ),
             ),
             const SizedBox(
               height: 92.53,

@@ -64,7 +64,8 @@ flutter:
   assets:
     - assets/images/re_ssue.svg
     - assets/images/google_login_button.png
-
+    - assets/images/premium_banner.svg
+    - assets/images/premium_banner.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
